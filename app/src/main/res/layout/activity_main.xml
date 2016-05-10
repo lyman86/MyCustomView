@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_dark"
+        lyman:rightTextSelect="添加"
+        lyman:rightTextColorSelect="@android:color/white"
+        lyman:rightTextPaddingRightSelect="16dp"
+        lyman:rightTextPaddingTopSelect="30dp"
+        lyman:rightTextSizeSelect="20sp"
+        lyman:rightTypeSelect="text" />
+
+
+    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/background_dark"
+        lyman:rightImagePaddingRightSelect="10dp"
+        lyman:rightImageSourceSelect="@drawable/arrow"
+        lyman:rightSideTextColorSelect="@android:color/white"
+
+        lyman:rightSideTextPaddingRightSelect="10dp"
+        lyman:rightSideTextSelect="rightSide"
+        lyman:rightSideTypeSelect="text"
+        lyman:rightTypeSelect="image" />
+
+
+</LinearLayout>
