@@ -35,7 +35,7 @@
     
     <attr name="leftImageSourceSelect" format="reference|integer" />
     <attr name="leftImagePaddingLeftSelect" format="reference|dimension" />
-
+    <attr name="leftImagePaddingTopSelect" format="reference|dimension" />
     <attr name="centerTypeSelect">
         <enum name="text" value="0" />
         <enum name="image" value="1" />
@@ -43,7 +43,6 @@
     <attr name="centerTextColorSelect" format="reference|color" />
     <attr name="centerTextSizeSelect" format="reference|dimension" />
     <attr name="centerTextSelect" format="reference|string" />
-    <attr name="centerTextPaddingLeftSelect" format="reference|dimension" />
     <attr name="centerTextPaddingTopSelect" format="reference|dimension" />
 
     <attr name="centerImageSourceSelect" format="reference|integer" />
@@ -53,7 +52,7 @@
         <attr name="rightTypeSelect" />
         <attr name="rightSideTypeSelect" />
         <attr name="leftTypeSelect" />
-        
+        <attr name="centerTypeSelect"/>
         <attr name="leftTextColorSelect" />
         <attr name="leftTextSizeSelect" />
         <attr name="leftTextSelect" />
@@ -61,7 +60,8 @@
         
         <attr name="leftImageSourceSelect" />
         <attr name="leftImagePaddingLeftSelect" />
-        
+        <attr name="leftImagePaddingTopSelect"/>
+
         <attr name="rightTextColorSelect" />
         <attr name="rightTextSizeSelect" />
         <attr name="rightTextSelect" />
@@ -82,7 +82,6 @@
         <attr name="centerTextColorSelect"/>
         <attr name="centerTextSizeSelect"/>
         <attr name="centerTextSelect"/>
-        <attr name="centerTextPaddingLeftSelect"/>
         <attr name="centerTextPaddingTopSelect"/>
 
         <attr name="centerImageSourceSelect"/>

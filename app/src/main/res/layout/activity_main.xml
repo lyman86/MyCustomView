@@ -14,7 +14,17 @@
         lyman:rightTextPaddingRightSelect="16dp"
         lyman:rightTextPaddingTopSelect="30dp"
         lyman:rightTextSizeSelect="20sp"
-        lyman:rightTypeSelect="text" />
+        lyman:rightTypeSelect="text"
+        lyman:centerTypeSelect="text"
+        lyman:centerTextSelect="主页"
+        lyman:centerTextSizeSelect="26sp"
+        lyman:centerTextPaddingTopSelect="30dp"
+        lyman:centerTextColorSelect="@android:color/white"
+        lyman:leftTypeSelect="image"
+        lyman:leftImageSourceSelect="@drawable/icon_back"
+        lyman:leftImagePaddingTopSelect="30dp"
+        lyman:leftImagePaddingLeftSelect="10dp"
+        />
 
 
     <com.ly.luoyan.mycustomview.view.CustomSelectItem
