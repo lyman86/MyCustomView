@@ -3,43 +3,36 @@
     xmlns:lyman="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical">
-    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+   <Button
+       android:id="@+id/click01"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="TitleBar01"
+       />
+
+    <Button
+        android:id="@+id/click02"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginBottom="5dp"
-        android:background="@android:color/holo_blue_dark"
-        lyman:rightTextSelect="添加"
-        lyman:rightTextColorSelect="@android:color/white"
-        lyman:rightTextPaddingRightSelect="16dp"
-        lyman:rightTextPaddingTopSelect="30dp"
-        lyman:rightTextSizeSelect="20sp"
-        lyman:rightTypeSelect="text"
-        lyman:centerTypeSelect="text"
-        lyman:centerTextSelect="主页"
-        lyman:centerTextSizeSelect="26sp"
-        lyman:centerTextPaddingTopSelect="30dp"
-        lyman:centerTextColorSelect="@android:color/white"
-        lyman:leftTypeSelect="image"
-        lyman:leftImageSourceSelect="@drawable/icon_back"
-        lyman:leftImagePaddingTopSelect="30dp"
-        lyman:leftImagePaddingLeftSelect="10dp"
+        android:layout_height="wrap_content"
+        android:text="TitleBar02"
         />
 
-
-    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+    <Button
+        android:id="@+id/click03"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginBottom="5dp"
-        android:background="@android:color/background_dark"
-        lyman:rightImagePaddingRightSelect="10dp"
-        lyman:rightImageSourceSelect="@drawable/arrow"
-        lyman:rightSideTextColorSelect="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="TitleBar03"
+        />
 
-        lyman:rightSideTextPaddingRightSelect="10dp"
-        lyman:rightSideTextSelect="rightSide"
-        lyman:rightSideTypeSelect="text"
-        lyman:rightTypeSelect="image" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false" />
 
 
 </LinearLayout>

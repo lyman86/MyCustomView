@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+        android:id="@+id/cus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_dark"
+        lyman:rightTextSelect="添加"
+        lyman:rightTextColorSelect="@android:color/white"
+        lyman:rightTextPaddingRightSelect="10dp"
+        lyman:rightTextPaddingTopSelect="10dp"
+        lyman:rightTextSizeSelect="20sp"
+        lyman:rightTypeSelect="text"
+        lyman:centerTypeSelect="text"
+        lyman:centerTextSelect="主页"
+        lyman:centerTextSizeSelect="26sp"
+        lyman:centerTextPaddingTopSelect="10dp"
+        lyman:centerTextColorSelect="@android:color/white"
+        lyman:leftTypeSelect="image"
+        lyman:leftImageSourceSelect="@drawable/icon_back"
+        lyman:leftImagePaddingTopSelect="10dp"
+        lyman:leftImagePaddingLeftSelect="10dp"
+        />
+
+</LinearLayout>

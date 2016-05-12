@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ly.luoyan.mycustomview.view.CustomSelectItem
+        android:id="@+id/cus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/background_dark"
+        lyman:rightImagePaddingRightSelect="10dp"
+        lyman:rightImagePaddingTopSelect="10dp"
+        lyman:rightImageSourceSelect="@mipmap/ic_launcher"
+        lyman:rightSideTextColorSelect="@android:color/white"
+
+        lyman:rightSideTextPaddingRightSelect="5dp"
+        lyman:rightSideTextPaddingTopSelect="10dp"
+        lyman:rightSideTextSelect="rightSide"
+        lyman:rightSideTypeSelect="text"
+        lyman:rightTypeSelect="image"
+
+        lyman:centerTypeSelect="image"
+        lyman:centerImageSourceSelect="@mipmap/ic_launcher"
+        lyman:centerImagePaddingTopSelect="10dp"
+
+        lyman:leftTextSelect="添加"
+        lyman:leftTextColorSelect="@android:color/white"
+        lyman:leftTextPaddingLeftSelect="10dp"
+        lyman:leftTextPaddingTopSelect="10dp"
+        lyman:leftTextSizeSelect="20sp"
+        lyman:leftTypeSelect="text"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换右边文字"
+        android:onClick="rightChange"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换左边文字"
+        android:onClick="leftChange"
+        />
+
+</LinearLayout>

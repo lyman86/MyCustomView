@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.TitleBar01"></activity>
+        <activity android:name=".ui.TitleBar02"></activity>
+        <activity android:name=".ui.TitleBar03"></activity>
     </application>
 
 </manifest>
